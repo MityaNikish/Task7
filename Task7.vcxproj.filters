@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="closest_neighbor.cpp">
+      <Filter>Closest Neighbor</Filter>
+    </ClCompile>
+    <ClCompile Include="linear.cpp">
+      <Filter>Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="file_manager.cpp">
+      <Filter>File Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="grid_function.cpp">
+      <Filter>Grid Function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{ffe823c8-d50a-41f6-b16a-f0b4313b16f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Closest Neighbor">
+      <UniqueIdentifier>{3b31df32-d10e-4cb7-a133-bb5bf56365e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linear">
+      <UniqueIdentifier>{1a3fa33a-0c7c-4b0e-927a-6d77b8924bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Manager">
+      <UniqueIdentifier>{3d5c723e-1965-4e30-8c51-71184d6abb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid Function">
+      <UniqueIdentifier>{ed27c952-71d5-45ce-97a8-f896976732a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="grid_interpolation.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="closest_neighbor.h">
+      <Filter>Closest Neighbor</Filter>
+    </ClInclude>
+    <ClInclude Include="linear.h">
+      <Filter>Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="file_manager.h">
+      <Filter>File Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="grid_function.h">
+      <Filter>Grid Function</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
